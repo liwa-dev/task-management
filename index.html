@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <title>Task Management</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Cairo:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <div class="containerBackground"></div>
+  <div class="container">
+    <div class="textContainer">
+      <div class="typewriter">
+        <h1 id="typewriter-text">just a test for purpose</h1>
+      </div>
+    </div>
+    <div class="container-inner">
+      <div class="container-front">
+        <div class="form-group">
+          <button onclick="go()">Let's get started!</button>
+        </div>
+      </div>
+
+      <div class="container-back">
+        <header class="header">
+          <div class="shapes">
+            <div class="shape box" onclick="addTask('box')">Box</div>
+          </div>
+          <div class="controls-container">
+            <div class="button" id="saveBtn">Save</div>
+            <div class="button" id="loadBtn">Load</div>
+          </div>
+        </header>
+        <div id="task-container" class="task-container">
+          <div id="task-content" class="task-content"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
