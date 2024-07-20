@@ -4,7 +4,7 @@
 
 This dynamic, web-based application offers an intuitive and visually engaging way to manage tasks, ideas, and workflows. Inspired by modern game development environments, it provides a canvas-like interface where users can create, connect, and manipulate task nodes in a tree-like structure.
 
-![Application Interface](imgs/face1.jpg)
+![Application Interface](imgs/face1.png)
 
 ## Key Features
 
