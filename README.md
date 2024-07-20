@@ -53,21 +53,13 @@ Tailor the application by modifying these key files:
 - `script.js`: Extend core functionality and interactions
 - `index.html`: Modify structure or introduce new elements
 
-## Browser Support
-
-Optimized for modern web browsers including:
-- Google Chrome (recommended)
-- Mozilla Firefox
-- Safari
-- Microsoft Edge
-
 ## Contributing
 
 We welcome contributions! Feel free to fork the project and submit pull requests.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [Apache License 2.0](LICENSE).
 
 ## Acknowledgements
 
