@@ -31,7 +31,7 @@ This dynamic, web-based application offers an intuitive and visually engaging wa
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/interactive-task-visualizer.git
+   git clone [https://github.com/your-username/interactive-task-visualizer.git](https://github.com/liwa-dev/task-management.git)
    ```
 2. Open `index.html` in a modern web browser.
 
